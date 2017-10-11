@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" verbose="1"> 
+  <test name="Paralleltest GRID 1">
+      <parameter name="browser" value="firefox"/>
+       <parameter name="RemoteURL" value="http://192.168.1.5:5557/wd/hub"/>
+    <classes>
+      <class name="TestScenarios.ParallelTestA"/>
+    </classes>
+  </test> <!-- Paralleltest -->  
+   <test name="Paralleltest GRID 2">
+      <parameter name="browser" value="firefox"/>
+       <parameter name="RemoteURL" value="http://192.168.1.5:5559/wd/hub"/>
+    <classes>
+      <class name="TestScenarios.ParallelTestA"/>
+    </classes>
+  </test> <!-- Paralleltest -->  
+</suite> <!-- Suite -->
+
+

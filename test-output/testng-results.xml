@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58556" started-at="2017-10-09T07:25:47Z" finished-at="2017-10-09T07:26:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="58556" started-at="2017-10-09T07:25:47Z" finished-at="2017-10-09T07:26:45Z">
+      <class name="TestScenarios.DemoVtigettest">
+        <test-method status="FAIL" signature="startbrowser(java.lang.String)[pri:0, instance:TestScenarios.DemoVtigettest@2133814f]" name="startbrowser" is-config="true" duration-ms="0" started-at="2017-10-09T12:55:47Z" finished-at="2017-10-09T12:55:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ugBig.png","icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1507533963243	addons.xpi-utils	DEBUG	Updating active state for add-on firebug@software.joehewitt.com to false
+1507533963244	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1507533963244	DeferredSave.extensions.json	DEBUG	Save changes
+1507533963247	addons.xpi	DEBUG	Calling bootstrap method shutdown on firebug@software.joehewitt.com version 2.0.19
+1507533963248	addons.xpi	WARN	Exception running bootstrap method shutdown on firebug@software.joehewitt.com: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Lenovo/AppData/Local/Temp/anonymous3583726571009000755webdriver-profile/extensions/firebug@software.joehewitt.com.xpi!/bootstrap.js :: shutdown :: line 92"  data: no] Stack trace: shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Lenovo/AppData/Local/Temp/anonymous3583726571009000755webdriver-profile/extensions/firebug@software.joehewitt.com.xpi!/bootstrap.js:92 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4405 < updateAddonDisabledState()@resource://gre/modules/addons/XPIProvider.jsm:4540 < updateAddonRepositoryData/</<()@resource://gre/modules/addons/XPIProvider.jsm:3848 < getAddon()@resource://gre/modules/addons/AddonRepository.jsm:558 < getCachedAddonByID()@resource://gre/modules/addons/AddonRepository.jsm:570 < updateAddonRepositoryData/<()@resource://gre/modules/addons/XPIProvider.jsm:3843 < makeSafe/<()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:108 < getAddonList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:725 < showUpgradeUI()@resource://gre/modules/addons/XPIProvider.jsm:2495 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2200 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1507533963252	addons.xpi	DEBUG	Removing manifest for C:\Users\Lenovo\AppData\Local\Temp\anonymous3583726571009000755webdriver-profile\extensions\firebug@software.joehewitt.com.xpi
+1507533963264	addons.xpi	DEBUG	updateAddonRepositoryData got info for FireXPath@pierre.tholence.com
+1507533963264	addons.xpi	DEBUG	updateAddonRepositoryData got info for jid1-16aeif9OQIRKxA@jetpack
+1507533963265	addons.xpi	DEBUG	updateAddonRepositoryData got info for @onboard-v2
+1507533963267	DeferredSave.extensions.json	DEBUG	Starting timer
+1507533963267	addons.update-dialog	DEBUG	Fetching affected addons ["firebug@software.joehewitt.com"]
+1507533963269	addons.update-dialog	DEBUG	VersionInfo Finding updates for firebug@software.joehewitt.com
+1507533963280	addons.update-checker	DEBUG	Requesting https://versioncheck.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=firebug@software.joehewitt.com&version=2.0.19&maxAppVersion=54.0&status=userEnabled,incompatible&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=56.0&appOS=WINNT&appABI=x86-msvc&locale=en-US&currentAppVersion=56.0&updateType=99&compatMode=normal
+1507533963293	DeferredSave.extensions.json	DEBUG	Starting write
+1507533963306	DeferredSave.extensions.json	DEBUG	Write succeeded
+1507533964180	addons.update-dialog	DEBUG	VersionInfo update 1 of 1 finished for firebug@software.joehewitt.com
+1507533964181	addons.update-dialog	DEBUG	VersionInfo updates finished: found ["firebug@software.joehewitt.com:true"]
+1507533964181	addons.update-dialog	DEBUG	Continuing with add-on firebug@software.joehewitt.com
+1507533964599	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1507533964609	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-BIQ4L6NA', ip: '192.168.204.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ugBig.png","icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1507533963243	addons.xpi-utils	DEBUG	Updating active state for add-on firebug@software.joehewitt.com to false
+1507533963244	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1507533963244	DeferredSave.extensions.json	DEBUG	Save changes
+1507533963247	addons.xpi	DEBUG	Calling bootstrap method shutdown on firebug@software.joehewitt.com version 2.0.19
+1507533963248	addons.xpi	WARN	Exception running bootstrap method shutdown on firebug@software.joehewitt.com: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Lenovo/AppData/Local/Temp/anonymous3583726571009000755webdriver-profile/extensions/firebug@software.joehewitt.com.xpi!/bootstrap.js :: shutdown :: line 92"  data: no] Stack trace: shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Lenovo/AppData/Local/Temp/anonymous3583726571009000755webdriver-profile/extensions/firebug@software.joehewitt.com.xpi!/bootstrap.js:92 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4405 < updateAddonDisabledState()@resource://gre/modules/addons/XPIProvider.jsm:4540 < updateAddonRepositoryData/</<()@resource://gre/modules/addons/XPIProvider.jsm:3848 < getAddon()@resource://gre/modules/addons/AddonRepository.jsm:558 < getCachedAddonByID()@resource://gre/modules/addons/AddonRepository.jsm:570 < updateAddonRepositoryData/<()@resource://gre/modules/addons/XPIProvider.jsm:3843 < makeSafe/<()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:108 < getAddonList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:725 < showUpgradeUI()@resource://gre/modules/addons/XPIProvider.jsm:2495 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2200 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1507533963252	addons.xpi	DEBUG	Removing manifest for C:\Users\Lenovo\AppData\Local\Temp\anonymous3583726571009000755webdriver-profile\extensions\firebug@software.joehewitt.com.xpi
+1507533963264	addons.xpi	DEBUG	updateAddonRepositoryData got info for FireXPath@pierre.tholence.com
+1507533963264	addons.xpi	DEBUG	updateAddonRepositoryData got info for jid1-16aeif9OQIRKxA@jetpack
+1507533963265	addons.xpi	DEBUG	updateAddonRepositoryData got info for @onboard-v2
+1507533963267	DeferredSave.extensions.json	DEBUG	Starting timer
+1507533963267	addons.update-dialog	DEBUG	Fetching affected addons ["firebug@software.joehewitt.com"]
+1507533963269	addons.update-dialog	DEBUG	VersionInfo Finding updates for firebug@software.joehewitt.com
+1507533963280	addons.update-checker	DEBUG	Requesting https://versioncheck.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=firebug@software.joehewitt.com&version=2.0.19&maxAppVersion=54.0&status=userEnabled,incompatible&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=56.0&appOS=WINNT&appABI=x86-msvc&locale=en-US&currentAppVersion=56.0&updateType=99&compatMode=normal
+1507533963293	DeferredSave.extensions.json	DEBUG	Starting write
+1507533963306	DeferredSave.extensions.json	DEBUG	Write succeeded
+1507533964180	addons.update-dialog	DEBUG	VersionInfo update 1 of 1 finished for firebug@software.joehewitt.com
+1507533964181	addons.update-dialog	DEBUG	VersionInfo updates finished: found ["firebug@software.joehewitt.com:true"]
+1507533964181	addons.update-dialog	DEBUG	Continuing with add-on firebug@software.joehewitt.com
+1507533964599	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1507533964609	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-BIQ4L6NA', ip: '192.168.204.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:124)
+	at Factory.BrowserFactory.getBrowser(BrowserFactory.java:31)
+	at TestScenarios.WebBaseClass.startbrowser(WebBaseClass.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ugBig.png","icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1507533963243	addons.xpi-utils	DEBUG	Updating active state for add-on firebug@software.joehewitt.com to false
+1507533963244	addons.xpi	DEBUG	Add-on FireXPath@pierre.tholence.com blocks e10s rollout.
+1507533963244	DeferredSave.extensions.json	DEBUG	Save changes
+1507533963247	addons.xpi	DEBUG	Calling bootstrap method shutdown on firebug@software.joehewitt.com version 2.0.19
+1507533963248	addons.xpi	WARN	Exception running bootstrap method shutdown on firebug@software.joehewitt.com: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Lenovo/AppData/Local/Temp/anonymous3583726571009000755webdriver-profile/extensions/firebug@software.joehewitt.com.xpi!/bootstrap.js :: shutdown :: line 92"  data: no] Stack trace: shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Lenovo/AppData/Local/Temp/anonymous3583726571009000755webdriver-profile/extensions/firebug@software.joehewitt.com.xpi!/bootstrap.js:92 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4405 < updateAddonDisabledState()@resource://gre/modules/addons/XPIProvider.jsm:4540 < updateAddonRepositoryData/</<()@resource://gre/modules/addons/XPIProvider.jsm:3848 < getAddon()@resource://gre/modules/addons/AddonRepository.jsm:558 < getCachedAddonByID()@resource://gre/modules/addons/AddonRepository.jsm:570 < updateAddonRepositoryData/<()@resource://gre/modules/addons/XPIProvider.jsm:3843 < makeSafe/<()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:108 < getAddonList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:725 < showUpgradeUI()@resource://gre/modules/addons/XPIProvider.jsm:2495 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2200 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1507533963252	addons.xpi	DEBUG	Removing manifest for C:\Users\Lenovo\AppData\Local\Temp\anonymous3583726571009000755webdriver-profile\extensions\firebug@software.joehewitt.com.xpi
+1507533963264	addons.xpi	DEBUG	updateAddonRepositoryData got info for FireXPath@pierre.tholence.com
+1507533963264	addons.xpi	DEBUG	updateAddonRepositoryData got info for jid1-16aeif9OQIRKxA@jetpack
+1507533963265	addons.xpi	DEBUG	updateAddonRepositoryData got info for @onboard-v2
+1507533963267	DeferredSave.extensions.json	DEBUG	Starting timer
+1507533963267	addons.update-dialog	DEBUG	Fetching affected addons ["firebug@software.joehewitt.com"]
+1507533963269	addons.update-dialog	DEBUG	VersionInfo Finding updates for firebug@software.joehewitt.com
+1507533963280	addons.update-checker	DEBUG	Requesting https://versioncheck.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=firebug@software.joehewitt.com&version=2.0.19&maxAppVersion=54.0&status=userEnabled,incompatible&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=56.0&appOS=WINNT&appABI=x86-msvc&locale=en-US&currentAppVersion=56.0&updateType=99&compatMode=normal
+1507533963293	DeferredSave.extensions.json	DEBUG	Starting write
+1507533963306	DeferredSave.extensions.json	DEBUG	Write succeeded
+1507533964180	addons.update-dialog	DEBUG	VersionInfo update 1 of 1 finished for firebug@software.joehewitt.com
+1507533964181	addons.update-dialog	DEBUG	VersionInfo updates finished: found ["firebug@software.joehewitt.com:true"]
+1507533964181	addons.update-dialog	DEBUG	Continuing with add-on firebug@software.joehewitt.com
+1507533964599	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1507533964609	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+	... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method status="SKIP" signature="testLoginvtiger()[pri:0, instance:TestScenarios.DemoVtigettest@2133814f]" name="testLoginvtiger" duration-ms="15" started-at="2017-10-09T12:56:45Z" finished-at="2017-10-09T12:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginvtiger -->
+        <test-method status="SKIP" signature="endTestCase(org.testng.ITestResult)[pri:0, instance:TestScenarios.DemoVtigettest@2133814f]" name="endTestCase" is-config="true" duration-ms="0" started-at="2017-10-09T12:56:45Z" finished-at="2017-10-09T12:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestCase -->
+        <test-method status="SKIP" signature="VerifyTitle()[pri:0, instance:TestScenarios.DemoVtigettest@2133814f]" name="VerifyTitle" duration-ms="16" started-at="2017-10-09T12:56:45Z" finished-at="2017-10-09T12:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method status="SKIP" signature="endTestCase(org.testng.ITestResult)[pri:0, instance:TestScenarios.DemoVtigettest@2133814f]" name="endTestCase" is-config="true" duration-ms="0" started-at="2017-10-09T12:56:45Z" finished-at="2017-10-09T12:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestCase -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:TestScenarios.DemoVtigettest@2133814f]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-09T12:56:45Z" finished-at="2017-10-09T12:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScenarios.DemoVtigettest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
